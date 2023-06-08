@@ -1,0 +1,120 @@
+
+body{
+  padding-left: 0;
+  background-image: url(../IMG/z4396893026504_c214427f7ada9381ce743014cb1ff4eb.jpg);
+}
+#neon {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 55px #0ff, 0 0 75px #0ff;
+    animation: neon-animation 1.5s ease-in-out infinite alternate;
+    text-align: center;
+    
+  }
+  
+  @keyframes neon-animation {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 55px #0ff, 0 0 75px #0ff;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f0f, 0 0 30px #f0f, 0 0 40px #f0f, 0 0 55px #f0f, 0 0 75px #f0f;
+    }
+  }
+  #tieude{
+    background-color: deeppink;
+    padding: 10px;
+  
+  }
+  #bia{
+   background-color: deeppink;
+   display: flex;
+   flex-direction: row;
+  
+    
+  }
+  #intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: deeppink;
+  }
+  #video_intro{
+    /* position: relative;
+    left: 90px; */
+  }
+  @keyframes change-background {
+    0% {
+      background-image: url(../IMG/z4396893026504_c214427f7ada9381ce743014cb1ff4eb.jpg);
+    }
+    50% {
+      background-image: url(../IMG/z4399509337337_6140b4addd33d3395c7353060acc01cc.jpg);
+    }
+    100% {
+      background-image: url(../IMG/z4399521079809_4a375322da203a82ca7bc846a2ed0bce.jpg);
+    }
+  }
+  body {
+    animation: change-background 20s ease-in-out infinite;
+  }
+  .tieude_1{
+   
+    text-align: center;
+    border: white 1px solid;
+  }
+  .row{
+    margin-bottom: 3px;
+  }
+  .noidung{
+    background-color: deeppink;
+    color: white;
+  }
+  @keyframes abc{
+    0%{
+      background-color: deeppink;
+          color: white;
+    }
+    50%{
+      background-color: red;
+      color: orange;
+    }
+    100%{
+      background-color: orange;
+      color: deeppink;
+    }
+  }
+  .tieude_1{
+    animation: abc 5s ease-in-out infinite ;
+  }
+  
+#intro {
+  background: red;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  50% {
+    background: deeppink;
+  }
+  100%{
+    background-color: orange;
+  }
+}
+
+/* // */
+
+
+
+h5{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.loinhan, .lydo{
+  background-color: red;
+}
+.footer{
+  background-image: url(../IMG/pngtree-background-banner-birthday-card-picture-image_654919.jpg);
+  color: deeppink;
+  text-shadow: 0px 2px 1px red, 2px 1px 3px white;
+}
+
+
+
